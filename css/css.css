@@ -1,0 +1,597 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0.0rem;
+  }
+  
+  
+  a p{
+    color: white;
+  }
+  
+  
+  .offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
+  }
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat"
+  
+  }
+  
+  
+  .navbar-nav {
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .btn-close {
+    background: url(../imagenes/X.png);
+    background-size: cover;
+    height: 5px;
+    width: 5px;
+  }
+  
+  .offcanvas-header {
+    padding: 1.95rem 1rem;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline white;
+  }
+  
+  .offcanvas-end {
+    width: 400px;
+  }
+  
+  .imagenes {
+    width: 600px;
+    min-height: 845px;
+    object-fit: cover;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 38%;
+    top: 38%;
+    padding-top: 1.25rem;
+    padding-bottom: 21.12rem;
+    color: #fff;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    cursor: pointer;
+    width:25%;
+    height:15%
+  }
+  
+  .h5,
+  h5 {
+    font-size: 3.25rem;
+    font-family: "Montserrat";
+  }
+  
+  .fondo {
+    background-color: black;
+  }
+  
+  .offcanvas-end {
+  
+    border-left: none;
+  
+  }
+  
+  .offcanvas-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin-top: 0rem;
+    margin-right: -0.5rem;
+    margin-bottom: -0.5rem;
+  }
+  
+  .offcanvas-backdrop.show {
+    opacity: .9;
+  }
+  
+  /*CORTOS*/
+  
+  
+  .contendor__TituloCortos {
+    margin-top: 100px;
+  
+  }
+  
+  .cortos__img__marginT {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+  
+  .imagenesCortos {
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+  
+  }
+  
+  #shortfilms__imagenesCarrousel__container{
+    padding-top: 80px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+  .shortfilms__premios__container div img{
+    width:200px;
+    height:190px;
+  }
+  
+  
+  .carrousel-captionCortos{
+    position:relative;
+  }
+  
+  .shortfilms__premios__container{
+      display:flex;
+      position: absolute;
+      top: -30px; right: 20%;
+  }
+  
+  
+  .shortfilms__premios__container div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left: 50px;
+  }
+  
+  
+  #carrouselItem__1 .imagenesCortosh5{
+    position:absolute;
+    top:48%;right:70%;
+    font-family: "Montserrat";
+    color:#850808;
+  }
+  
+  
+  #carrouselItem__1 .textoCortos {
+    position:absolute;
+    bottom:0%;left:25%;
+    color:white;
+    font-family: "Montserrat";
+    width:60%;
+    text-align: center;
+  }
+  
+  #carrouselItem__2 .imagenesCortosh5{
+    position:absolute;
+    top:50%;right:70%;
+    font-family: "Montserrat";
+    color:#850808;
+  }
+  
+  #carrouselItem__2 .textoCortos {
+    position:absolute;
+    bottom:0%;left:20%;
+    color:white;
+    font-family: "Montserrat";
+    width:60%;
+    text-align: center;
+  }
+  
+  #carrouselItem__3 .imagenesCortosh5{
+    position:absolute;
+    top:50%;right:70%;
+    font-family: "Montserrat";
+    color:#850808;
+  }
+  
+  #carrouselItem__3 .textoCortos {
+    position:absolute;
+    bottom:0%;left:20%;
+    color:white;
+    font-family: "Montserrat";
+    width:60%;
+    text-align: center;
+  }
+  
+  #carrouselItem__4 .imagenesCortosh5{
+    position:absolute;
+    top:50%;right:65%;
+    font-family: "Montserrat";
+    color:#850808;
+  }
+  
+  #carrouselItem__4 .textoCortos {
+    position:absolute;
+    bottom:0%;left:20%;
+    color:white;
+    font-family: "Montserrat";
+    width:60%;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .imagenesCortosh5 strong {
+    font-family: "Montserrat";
+  }
+  
+  .row1>* {
+    flex-shrink: 0;
+  
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  
+  
+  .roww>* {
+    flex-shrink: 0;
+    /* width: 100%; */
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  
+  .contacto {
+    margin-top: 100px;
+  }
+  
+  .contenedorinfo {
+    padding-left: 330px;
+    line-height: 1.2;
+    margin-top: 15px;
+  
+  }
+  
+  .contenedorinfo--itemA {
+    color: white;
+    font-size: 40px;
+    font-family: "Montserrat";
+  }
+  
+  .contenedorinfo--itemC {
+    color: white;
+    font-size: 20px;
+    font-family: "Montserrat";
+  }
+  
+  .contenedorinfo--itemB {
+    color: red;
+    font-size: 30px;
+    margin-top: 50px;
+    padding-bottom: 55px;
+    font-family: "Montserrat";
+  }
+  
+  
+  /*WORKS*/
+  
+  
+  .cuerpo{
+    background-color:black;
+  }
+  
+  
+  .works__container {  
+    position:relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.1fr 1fr 0.2fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "navBar"
+        "works__nombresDeArtistas__container"
+        "works__coversVideos__container"
+        "works__footer";
+    }
+  
+    
+  .works__nombresDeArtistas__container{
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    grid-area: works__nombresDeArtistas__container;
+  }
+  
+  .works__nombresDeArtistas__container div{
+    width: 40%;
+  }
+  
+  
+  .works__nombresDeArtistas__container div h3{
+    font-family: "Montserrat";
+    color:#fff;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 60px;
+  }
+  
+  
+  
+  .works__coversVideos__container { 
+    grid-area: works__coversVideos__container;
+    display:flex;
+    flex-wrap: wrap; 
+  }
+  
+  
+  #imagenes__container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+  }
+  
+  .card__container{
+    width: 600px;
+    height:300px;
+    background-color: black;
+    position:relative;
+    border:solid black 1px;
+    cursor:pointer;
+  }
+  
+  .imagen__container{
+    width:100%;
+    height:100%;
+  }
+  
+  .card__container .imagen__container img{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+  }
+  
+  .card__container .imagen__container img:hover{
+    opacity: 50%;
+    transition: ease 0.9s;
+  }
+  
+  .card__info{
+    position:absolute;
+    top:45%;right:40%;
+    font-size: medium;
+    color:white;
+    font-family: "Montserrat";
+    cursor:pointer;
+    text-align: center;
+  }
+  
+  .card__info h3{
+    font-family: "Montserrat";
+    color:white;
+    cursor:pointer;
+    font-size: 2rem;
+  }
+  
+  .card__info p{
+    font-family: "Montserrat";
+    color: white;
+    cursor:pointer;
+    font-size:1rem;
+  }
+  
+  .desaparecer{
+    display:none;
+  }
+  
+  .achicar{
+    height:0px;
+  }
+  
+  
+  .video__container video{
+    height:100%;
+    width:100%;
+  }
+  
+  .video__container{
+    position:relative;
+  }
+  
+  #btnCerrar{
+    position:absolute;
+    top: 25px;
+    left: 30px;
+    width:20px;
+    height: 10px;
+    font-size: 2.3rem;
+    color:#D4D4D4;
+    font-weight: lighter;
+    background-color: transparent;
+    border:transparent solid 2px;
+  }
+  
+  #btnCerrar:hover{
+    color:#F2F2F2;
+  }
+  
+  
+  .works__footer{
+    color: black;
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /**/
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  
+  body {
+    background-color: black;
+  }
+  
+  .baga {
+    font-size: 22px;
+    letter-spacing: 8px;
+  }
+  
+  button {
+    margin-left: 15px;
+  }
+  
+  li {
+    font-family: "Montserrat";
+    font-size: 20px;
+  }
+  
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+  }
+  
+  .offcanvas {
+    position: fixed;
+    bottom: 0;
+    z-index: 1045;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.03);
+    background-clip: padding-box;
+    outline: 0;
+    transition: transform .3s ease-in-out;
+  }
+  
+  
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .navbar-light .navbar-toggler-icon {
+    background-image: url(../imagenes/Hamburgesa.png)
+  }
+  
+  .navbar-nav {
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .offcanvas-header {
+    padding: 1.95rem 1rem;
+  }
+  
+  .nav-item a:hover {
+    text-decoration: underline white;
+  }
+  
+  .font {
+    font-family: "Montserrat";
+  }
+  .shortfilms__titulo{
+    font-size: 40px;
+    color: #850808; 
+    letter-spacing: 8px;
+    padding-top: 70px;
+  }
+  
+  .derecha {
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .aboutUs__tituloYtexto__container {
+    margin-top: 150px;
+    margin-left: 250px;
+    margin-right: 280px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  
+  .titulo h2 {
+    padding-top: 20px;
+    padding-left: 60px;
+    letter-spacing: 8px;
+    font-size: 40px;
+    font-family: "Montserrat";
+    color: #850808;
+  }
+  
+  
+  .texto {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'Montserrat';
+    color: aliceblue;
+  }
+  
+  .contacto__titulo{
+    font-family: "Montserrat"; 
+    letter-spacing: 8px;
+    font-size: 40px;
+    color:#850808;
+    padding-top: 70px;
+    padding-left: 300px;
+  }
+  
+  
+  
+  .navbar-brand{
+  z-index: 100;
+  }
+  
+  .navbar{
+    background-color: black;
+    opacity: 70%;
+  }
